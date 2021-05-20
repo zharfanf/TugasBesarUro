@@ -1,4 +1,5 @@
 #include "header.h"
+#include "hilmy.c"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -35,8 +36,8 @@ int main(){
 
 	StartAwal(T);
 
-	while (hp(Hilmy) > 0){
-		scanf("%d",pilihan);
+	while(Hilmy.Health > 0){
+		scanf("%d",&pilihan);
 		if (pilihan == 1){
 			Mandi(T);
 			TampilkanStatus(T);
@@ -84,7 +85,7 @@ int main(){
 
 
 	}
-	if (skor(Hilmy) > 150){
+	if (Hilmy.Score > 150){
 		printf("Selamat, Kamu Memenangkan Permainan");
 	}
 	else{
