@@ -12,12 +12,12 @@ int Score;
 } Status;
 
 /* selektor */
-#define hp(T) (T).Health
-#define happy(T) (T).Happiness
-#define soc(T) (T).Social
-#define hygenie(T) (T).Hygenie
-#define duit(T) (T).Money
-#define skor(T) (T).Score
+// #define hp(T) (T).Health
+// #define happy(T) (T).Happiness
+// #define soc(T) (T).Social
+// #define hygenie(T) (T).Hygenie
+// #define duit(T) (T).Money
+// #define skor(T) (T).Score
 
 /* konstruktor */
 void TampilkanStatus(Status *T);
