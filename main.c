@@ -10,14 +10,14 @@ int main(){
 	T = &Hilmy;
 	printf("SELAMAT DATANG DI PERMAINAN HILMY'S LIFE!!\n");
 	printf("==========================================\n" );
-	printf("---Aturan Main----\n" );
+	printf("----Aturan Main----\n" );
 	printf("1. Kamu Akan Memainkan Sebuah Life Simulator dengan Character Bernama Hilmy\n");
 	printf("2. Kamu Pernah Main The Sims Kan?\n");
 	printf("3. Nah, Kalau Pernah, Kurang Lebih Seperti itu Cara Bermainnya.\n");
 	char nama[100];
 	printf("Masukkan Nama:\n");
 	scanf("%s[^\n]",nama);
-	printf("Selamat bermain Hilmy's Life %s !\n",nama);
+	printf("Selamat bermain Hilmy's Life %s ! \n",nama);
 
 	printf("Pilihan:\n");
 	printf("1. Mandi\n");
@@ -28,7 +28,7 @@ int main(){
 	printf("6. Nongkrong\n");
 	printf("7. Main\n");
 	printf("8. NontonTv\n");
-	printf("9. Brownsing\n");
+	printf("9. Browsing\n");
 	printf("10. Dagang\n");
 	printf("11. Bunuh Diri\n");
 
